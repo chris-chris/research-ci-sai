@@ -1,5 +1,6 @@
-def hello_world() -> None:
+def hello_world() -> str:
     print("Hello World!")
+    return "Hello"
+
 
 hello_world()
-
